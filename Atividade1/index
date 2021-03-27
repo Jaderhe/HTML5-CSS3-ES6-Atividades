@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+    <header>
+        <h1>HTML5, CSS3, JS</h1>
+    </header>
+    <nav>
+        <a href="#">Notícias</a>
+        <a href="#">Formulários</a>
+    </nav>
+    <main>
+        <article>
+            <h1>Notícia 1</h1>
+            <p>27/03/2021, autor1@email.com</p>
+            <img src="https://source.unsplash.com/random/100x100">
+            <p>Introdução para a notícia 1, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
+            <a href="#">Notícia original</a>
+        </article>
+        <article>
+            <h1>Notícia 2</h1>
+            <p>27/03/2021, autor2@email.com</p>
+            <img src="https://source.unsplash.com/random/100x100">
+            <p>Introdução para a notícia 2, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
+            <a href="#">Notícia original</a>
+        </article>
+        <article>
+            <h1>Notícia 3</h1>
+            <p>27/03/2021, autor3@email.com</p>
+            <img src="https://source.unsplash.com/random/100x100">
+            <p>Introdução para a notícia 3, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
+            <a href="#">Notícia original</a>
+        </article>
+        <footer>
+            Jader Hericks Anschau - Desenvolvimento WEB e Mobile
+        </footer>
+    </main>
+</body>
+</html>
