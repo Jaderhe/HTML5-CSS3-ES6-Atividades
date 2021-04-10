@@ -5,40 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>HTML5, CSS3, JS</h1>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">HTML5, CSS3, JS</h1>
+          <p class="lead">Utilizando Bootstrap 4.</p>
+        </div>
     </header>
-    <nav>
-        <a href="#">Notícias</a>
-        <a href="#">Formulários</a>
-    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Inicial</a>
+            <a class="nav-link" href="form.html">Formulários</a>
+          </div>
+        </div>
+      </nav>
+
     <main>
-        <article>
-            <h1>Notícia 1</h1>
-            <p>27/03/2021, autor1@email.com</p>
-            <img src="https://source.unsplash.com/random/100x100">
-            <p>Introdução para a notícia 1, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
-            <a href="#">Notícia original</a>
-        </article>
-        <article>
-            <h1>Notícia 2</h1>
-            <p>27/03/2021, autor2@email.com</p>
-            <img src="https://source.unsplash.com/random/100x100">
-            <p>Introdução para a notícia 2, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
-            <a href="#">Notícia original</a>
-        </article>
-        <article>
-            <h1>Notícia 3</h1>
-            <p>27/03/2021, autor3@email.com</p>
-            <img src="https://source.unsplash.com/random/100x100">
-            <p>Introdução para a notícia 3, de acordo com os fatos ocorridos no dia, aumentados mas não inventados</p>
-            <a href="#">Notícia original</a>
-        </article>
-        <footer>
-            Jader Hericks Anschau - Desenvolvimento WEB e Mobile
-        </footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <article>
+                        <h3>Notícia 1</h3>
+                        <h6><small>21/03/2021, autor1@email.com</small></h6>
+                        <img src="https://source.unsplash.com/random" class="img-fluid">
+                        <p>Introdução para a notícia 1, de acordo com os fatos ocorridos no dia</p>
+                        <a class="btn btn-dark btn-sm float-right" href="#">Notícia original</a>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article>
+                        <h3>Notícia 2</h3>
+                        <h6><small>22/03/2021, autor2@email.com</small></h6>
+                        <img src="https://source.unsplash.com/random" class="img-fluid">
+                        <p>Introdução para a notícia 2, de acordo com os fatos ocorridos no dia</p>
+                        <a class="btn btn-dark btn-sm float-right" href="#">Notícia original</a>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article>
+                        <h3>Notícia 3</h3>
+                        <h6><small>27/03/2021, autor3@email.com</small></h6>
+                        <img src="https://source.unsplash.com/random" class="img-fluid">
+                        <p>Introdução para a notícia 3, de acordo com os fatos ocorridos no dia</p>
+                        <a class="btn btn-dark btn-sm float-right" href="#">Notícia original</a>
+                    </article>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div>Jader Hericks Anschau</div>
+            <div><strong>Desenvolvimento WEB e Mobile</strong></div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
