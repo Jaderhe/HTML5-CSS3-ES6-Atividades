@@ -1,0 +1,23 @@
+#prod1, #prod2 {
+    background-color:white;
+    font-size: small;
+    margin: 2px;
+}
+
+#dropzone1, #dropzone2 {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#inputs1, #inputs2 {
+    float: right;
+    margin-top: 15px;
+}
+
+#qtde1, #qtde2{
+    margin-right: 15px;
+}
+
+#total{
+    border: solid lightgray;
+}
